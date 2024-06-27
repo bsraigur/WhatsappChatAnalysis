@@ -3,8 +3,11 @@
 WhatsApp Chat Analysis is a technique that uses data analysis methods to uncover insights from conversations on WhatsApp.
 
 # Tech Stack Used
-Framework - Flask
-Technologies - ![image](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) ![image](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
+Framework and Technologies - 
+<img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="Flask" width="40" height="40"/></a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/></a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="40"/></a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
 
 Model - "bhadresh-savani/bert-base-go-emotion"
 
@@ -19,20 +22,17 @@ git clone https://github.com/bsraigur/WhatsappChatAnalysis.git
 # Steps to use
 Copy and Paste in the Command Prompt:
 ```
-1) pip install virtualenv
+python -m venv \path\to\WhatsappChatAnalysis\venv
 ```
 ```
-2) cd path/to/save (in this case WhataApp-Chat-Analysis)
+cd \path\to\WhatsappChatAnalysis
 ```
 ```
-3) virtualenv venv
+venv\Scripts\activate
 ```
 ```
-4) venv\Scripts\activate
+pip install -r requirements.txt
 ```
 ```
-5) pip install -r requirements.txt
-```
-```
-6) python app.py
+python app.py
 ```
