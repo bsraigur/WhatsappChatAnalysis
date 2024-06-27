@@ -1,0 +1,17 @@
+pandas
+emoji
+torch
+transformers
+nltk
+tqdm
+datetime
+regex
+datetime
+collection
+textblob
+flask
+seaborn
+wordcloud
+matplotlib
+
+-e .
